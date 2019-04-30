@@ -660,7 +660,7 @@ public class IOUtil
         for (int i = 0; i < params.length - 1; i++)
         {
             bw.write(params[i]);
-            bw.write('\t');
+            bw.write('\n');
         }
         bw.write(params[params.length - 1]);
     }
